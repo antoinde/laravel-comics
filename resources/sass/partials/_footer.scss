@@ -1,0 +1,38 @@
+footer{
+    
+    background-image: url("/images/footer-bg.jpg");
+    color: grey;
+    .general-container{
+        display: flex;
+        .left,.right{
+            width: 50%;
+        }
+        .left{
+            padding: 15px;
+            display: flex;
+            column-gap: 70px;
+            li:hover{
+                cursor: pointer;
+                filter: brightness(150%);
+                
+            }
+            li{
+                margin: 5px 0px;
+            }
+        }
+        .right{
+            position: relative;
+            overflow: hidden;
+            img{
+                position: absolute;
+                right: 0px;
+                top: -25px;
+                width: 400px;
+
+            }
+        }
+    }
+    h1,h2,h3,h4,h5,h6{
+        color: #fff;
+    }
+}

@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    flex-direction: column;
+    .blue-row{
+        background-color: #0282f9;
+        color: white;
+        .general-container{
+            display: flex;
+            justify-content: flex-end;
+            column-gap: 25px;
+        }
+    }
+    nav{
+        display: flex;
+        height: 80px;
+        .general-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0px;
+            align-items: center;
+            img{
+                height: 60px;
+            }
+            .nav-links{
+                ul{
+                    display: flex;
+                    column-gap: 15px;
+                    li{
+                        height: 75px;
+                        line-height: 75px;
+                        border-bottom: 5px solid transparent;
+                        a{
+                            height: 100%;
+                        }
+                    }
+                    li:hover{
+                        border-color: #0282f9;
+                    }
+                }
+            }
+        }
+    }
+    .jumbotron{
+        height: 350px;
+        overflow: hidden;
+    }
+    input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid #0282f9;
+    }
+    
+
+}
